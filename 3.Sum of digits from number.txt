@@ -1,0 +1,16 @@
+3.Sum of digits from number
+	input = 123
+   	output = 6
+
+public class SumofDigits{
+public staticvoid main(String[]args){
+int num=123;
+int sum=0;
+while(num<0)
+{
+sum+=num%10;
+num/=10;
+}
+System.out.println(sum);
+}
+}
